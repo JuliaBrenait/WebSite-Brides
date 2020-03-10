@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey&display=swap');
+
+*{
+    margin: 0px;
+}
+
+/*HEADER*/
+
+
+header{
+    background-color: rgb(251, 226, 230);
+    border-radius: 30px 30px;
+    margin: 0px 200px;
+    border: 1px solid rgb(200, 182, 185);
+    
+}
+
+header #header img{
+    width: 190px;
+    padding: 10px 220px 0px 300px;
+}
+
+header #header a{
+    text-decoration: none;
+    font-family: 'Arapey', serif;
+    font-size: 40px;
+    color: rgb(102, 99, 101);
+    padding: 0px 25px 0px 0px;
+    text-align: center;
+}
+
+header #header a:hover{
+    text-decoration: underline;
+    color: #423836;
+}
+
+/*BODY INDEX*/
+
+ .section{
+    padding: 20px 20px;
+    color: rgb(126, 122, 124);
+    margin: 10px 200px ;
+    background-color:#E0D5DE;
+    font-family: 'Arapey', serif;
+    border-radius: 20px;
+}
+
+
+.section h2{
+    text-align: center;
+    font-size: 38px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+ .section a{
+    text-decoration: none;
+    font-family: 'Arapey', serif;
+    font-size: 25px;
+    color: rgb(102, 99, 101);
+    padding-left: 680px;
+}
+
+ .section a:hover{
+    text-decoration: underline;
+    color: #423836;   
+}
+
+.section .photos{
+    padding:20px 5px;
+    border-bottom: 1px solid #615C60;
+}
+
+ .section .photos img{
+    padding:10px 20px 10px 50px;
+    border-radius: 50%;
+    max-width: 400px;
+    height: 300px;
+}
+
+/*BODY CONTENT*/
+
+#icon {
+    margin: 20px 250px;
+}
+
+#icon img{
+   padding: 70px 600px;
+   width: 300px;
+   height: 200px;
+ 
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.img{
+    margin:20px 200px;
+    
+}
+.img img{
+    padding:10px;
+    margin: 30px  50px;
+    border-radius: 60%;
+    max-width: 500px;
+    height: 300px;
+    border: 1px solid rgb(200, 182, 185) ;
+    background-color:rgb(251, 226, 230);
+}
+
+
+/*FOOTER*/
+footer{
+    margin: 10px 200px ;
+    background-color:#E6C8CC ;
+    border-radius: 20px;
+}
+footer .footer{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
